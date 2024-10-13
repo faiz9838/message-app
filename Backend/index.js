@@ -7,7 +7,7 @@ import userRoute from "./routes/user.route.js";
 import messageRoute from "./routes/message.route.js";
 import { app, server } from "./SocketIO/server.js";
 
-const path = require('path');
+import path from 'path';
 dotenv.config();
 
 // middleware
